@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest release of AdwareMedic and imports into Munki.</string>
+    <string>Downloads the latest release of DriveDX and imports into Munki.</string>
     <key>Identifier</key>
     <string>com.github.Ubertec.munki.DriveDX</string>
     <key>Input</key>
@@ -70,7 +70,7 @@
             <key>additional_makepkginfo_options</key>
             <array>
               <string>--destinationpath</string>
-              <string>%APP_DESTINATION%</string>
+              <string>/Applications/UUT Tools/</string>
             </array>
           </dict>
           <key>Processor</key>
