@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of ESET CyberSecurity</string>
+    <string>Downloads the latest version of ESET CyberSecurity. The same installer is used for the PRO edition.</string>
     <key>Identifier</key>
     <string>com.github.Ubertec.download.CyberSecurity</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>AutoDMG</string>
+        <string>CyberSecurity</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
