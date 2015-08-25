@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of GeekBench, currently version 3.3.2.</string>
+    <string>Downloads the latest version of GeekBench, currently version 3.3.2. Requires Updating with every new version</string>
     <key>Identifier</key>
     <string>com.github.Ubertec.download.GeekBench</string>
     <key>Input</key>
