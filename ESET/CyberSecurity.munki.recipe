@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest release of ESET CyberSecurity and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.Ubertec.munki.AutoDMG</string>
+    <string>com.github.Ubertec.munki.CyberSecurity</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
