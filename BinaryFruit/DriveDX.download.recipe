@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest release of DriveDX SMART monitoring and reporting tool</string>
+    <string>Downloads the latest release of DriveDX SMART monitoring and reporting tool. NOTE this download is from MacUpdate as Autopkg does not accept the Binary Fruit download url</string>
     <key>Identifier</key>
     <string>com.github.Ubertec.download.DriveDX</string>
     <key>Input</key>
@@ -21,7 +21,7 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>http://binaryfruit.com/download/drivedx/mac/1?ref=binaryfruit.com&place=drivedx.content-header.download</string>
+                <string>http://www.macupdate.com/app/mac/46974/drivedx/download</string>
             </dict>
         </dict>
         <dict>
