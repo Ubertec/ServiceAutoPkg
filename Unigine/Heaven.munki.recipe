@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the Latest version of Heaven GPU testing tool & imports into Munki.</string>
+    <string>Downloads the Latest version of Heaven GPU testing tool and imports into Munki.</string>
     <key>Identifier</key>
     <string>com.github.Ubertec.munki.Heaven</string>
     <key>Input</key>
