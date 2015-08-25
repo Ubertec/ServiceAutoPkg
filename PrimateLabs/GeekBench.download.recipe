@@ -21,7 +21,7 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>http://www.primatelabs.com/geekbench/download/mac/#download</string>
+                <string>http://www.primatelabs.com/geekbench/download/mac/</string>
             </dict>
         </dict>
         <dict>
