@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download recipe for FileMaker Pro 14.0.2 update.</string>
     <key>Identifier</key>
-    <string>com.github.Ubertec.download.filemakerpro14</string>
+    <string>com.github.Ubertec.download.FileMakerPro14</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
