@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Onyx client for OSX Yosemite and imports it into a Munki repo.</string>
+	<string>Downloads the latest Onyx client for OS X 10.10 and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.Ubertec.munki.Onyx10.10</string>
+	<string>com.github.Ubertec.munki.Onyx-10.10</string>
 	<key>Input</key>
 	<dict>
-		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
 		<key>NAME</key>
-		<string>Onyx</string>
+        <string>Onyx</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>utilities/Onyx</string>
+		<key>APP_DESTINATION</key>
+		<string>/Applications/UUT Tools</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -19,32 +21,38 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>OnyX is a multifunction utility to help clean your Hard Drive and reset many core functions to their most pristine.</string>
+			<string>OnyX is a multifunctional utility for OS X. It allows you to verify the startup disk and the structure of its System files, to run miscellaneous tasks of system maintenance, to configure the hidden parameters of the Finder, Dock, Spotlight, and of some of Apple's own applications, to delete caches, to remove a certain number of files and folders that may become cumbersome, and more.</string>
 			<key>display_name</key>
 			<string>Onyx for OSX 10.10</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
+			<key>category</key>
+			<string>OSX Utilities</string>
+			<key>developer</key>
+			<string>Titanium</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.Ubertec.download.Onyx10.10</string>
+	<string>com.github.Ubertec.download.Onyx-10.10</string>
 	<key>Process</key>
-	<array>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-			<key>pkg_path</key>
-			<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-			<key>repo_subdirectory</key>
-			<string>%MUNKI_REPO_SUBDIR%</string>
-			</dict>
-			<key>Processor</key>
-			<string>MunkiImporter</string>
-		</dict>
-	</array>
+    <array>
+        <dict>
+            <key>Comment</key>
+	    <string>This processor imports the final pkg into the location specified in the INPUT string at top of recipe.</string>
+            <key>Processor</key>
+            <string>MunkiImporter</string>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_path</key>
+                <string>%pathname%</string>
+                <key>repo_subdirectory</key>
+                <string>%MUNKI_REPO_SUBDIR%</string>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>
