@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest Onyx client for OS X 10.10 and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.Ubertec.munki.Onyx-10.10</string>
+	<string>com.github.Ubertec.munki.Onyx10.10</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -37,7 +37,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.Ubertec.download.Onyx-10.10</string>
+	<string>com.github.Ubertec.download.Onyx10.10</string>
 	<key>Process</key>
     <array>
         <dict>
