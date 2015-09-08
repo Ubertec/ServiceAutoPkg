@@ -19,7 +19,7 @@
                 <string>testing</string>
             </array>
             <key>description</key>
-            <string>ESET Endpoint Antivirus is fast and powerful Internet security for Mac powered by record-breaking technology.</string>
+            <string>ESET Endpoint Antivirus is fast and powerful Business level security for Mac powered by record-breaking technology.</string>
             <key>display_name</key>
             <string>ESET Endpoint Antivirus</string>
             <key>name</key>
@@ -31,7 +31,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.Ubertec.download.CyberSecurity</string>
+    <string>com.github.Ubertec.download.EndpointAntivirus</string>
     <key>Process</key>
     <array>
         <dict>
