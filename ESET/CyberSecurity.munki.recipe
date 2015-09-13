@@ -26,8 +26,8 @@
             <string>%NAME%</string>
             <key>preinstall_script</key>
             <string>#!/bin/sh
-if [ -e "/Applications/ESET CyberSecurity.app" ]; then
-rm -r "/Applications/ESET CyberSecurity.app"
+if [ -e "/Applications/ESET Cyber Security.app" ]; then
+rm -r "/Applications/ESET Cyber Security.app"
 fi
 exit 0
             </string>
