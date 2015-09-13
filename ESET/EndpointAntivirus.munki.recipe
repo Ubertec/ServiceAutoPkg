@@ -24,6 +24,13 @@
             <string>ESET Endpoint Antivirus</string>
             <key>name</key>
             <string>%NAME%</string>
+            <key>preinstall_script</key>
+            <string>#!/bin/sh
+if [ -e "/Applications/ESET Endpoint Antivirus.app" ]; then
+rm -r "/Applications/ESET Endpoint Antivirus.app"
+fi
+exit 0
+            </string>
             <key>unattended_install</key>
             <true/>
         </dict>
