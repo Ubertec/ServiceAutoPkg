@@ -41,11 +41,6 @@
             <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
             <key>repo_subdirectory</key>
             <string>%MUNKI_REPO_SUBDIR%</string>
-            <key>additional_makepkginfo_options</key>
-            <array>
-              <string>--destinationpath</string>
-              <string>/Applications/UUT Tools/</string>
-            </array>
             </dict>
             <key>Processor</key>
             <string>MunkiImporter</string>
