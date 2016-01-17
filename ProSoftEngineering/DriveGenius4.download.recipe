@@ -12,6 +12,8 @@
         <string>DriveGenius4</string>
         <key>SPARKLE_FEED_URL</key>
         <string>https://www.prosofteng.com/resources/dg4/dgupdate.rss</string>
+        <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<false/>
         <key>USER_AGENT</key>
         <string>Drive Genius 4 (Mac OS X) Sparkle/1.0</string>
     </dict>
