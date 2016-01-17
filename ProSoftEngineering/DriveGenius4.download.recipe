@@ -40,11 +40,6 @@
             <dict>
                 <key>filename</key>
                 <string>%NAME%.dmg</string>
-                <key>request_headers</key>
-                <dict>
-                    <key>user-agent</key>
-                    <string>%USER_AGENT%</string>
-                </dict>
             </dict>
         </dict>
         <dict>
