@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>FileMakerPro14</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://fmdl.filemaker.com/UPDT/14/fm_updater_14.0.2.200.dmg</string>
+        <string>http://fmdl.filemaker.com/UPDT/14/fm_updater_14.0.5.505.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
