@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Onyx client for OSX El Capitan.</string>
     <key>Identifier</key>
-    <string>com.github.Ubertec.download.Onyx10.10</string>
+    <string>com.github.Ubertec.download.Onyx10.11</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
